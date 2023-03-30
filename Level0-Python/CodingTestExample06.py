@@ -1,6 +1,6 @@
-#정수 배열 array가 매개변수로 주어질 때, 가장 큰 수와 그 수의 인덱스를 담은 배열을 return 하도록 solution 함수를 완성해보세요.
-#제한 사항 : 1 <= array 길이 <= 100, 0 <= array 원소 <= 1,000, arraty에 중복된 숫자는 없습니다.
-#예시 : array = [1,8,3], answer = [8, 1]
+# 문제 설명
+# 정수 배열 array가 매개변수로 주어질 때, 가장 큰 수와 그 수의 인덱스를 담은 배열을 return 하도록 solution 함수를 완성해보세요.
+# 제한 사항 : 1 <= array 길이 <= 100, 0 <= array 원소 <= 1,000, arraty에 중복된 숫자는 없습니다.
 
 def solution(array):
     answer = []
@@ -27,6 +27,6 @@ def solution(array):
     return answer
 
 
-#출력
+# 출력
 print("출력 : " + solution([1, 8, 3]))
 print("출력 : " + solution([1, 9]))
