@@ -10,6 +10,6 @@ def solution(n):
     
 # 설명 : 일단 인원 수 만큼 최대로 나눠 주는 코드, 남는다면 + 1판
 
-# 출력
+# 출력 
 print("출력 : " + solution(19))
 print("출력 : " + solution(4))
