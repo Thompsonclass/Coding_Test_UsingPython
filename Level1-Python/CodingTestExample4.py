@@ -5,7 +5,7 @@
 def solution(phone_number):
     num_front = len(phone_number)
     num_back = phone_number[-4:]
-    return "*"*(num_front-4)+num_back
+    return "*" * (num_front-4) + num_back
 
 # 출력 :
 print("출력 : " + solution("01033334444"))
